@@ -27,5 +27,6 @@ namespace MVCOrnek.Models
     
         public virtual DbSet<carreg> carreg { get; set; }
         public virtual DbSet<customer> customer { get; set; }
+        public virtual DbSet<rentail> rentail { get; set; }
     }
 }
